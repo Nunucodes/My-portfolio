@@ -131,7 +131,7 @@ export default defineComponent({
         id: 5,
         icon: "file",
         name: "CV",
-        url: "https://drive.google.com/file/d/1CpOMSZU-pmZwKm9SCxgEPjq2uOBMPcAM/view?usp=drivesdkg",
+        url: "https://drive.google.com/file/d/1qD6SbOIYupf1tdLaH4kNGF07tch8S_q2/view?usp=drivesdk",
         color: "#171515",
       },
     ] as SocialMediaInterface[],
