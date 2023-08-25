@@ -1,6 +1,6 @@
 import { netflixBuild } from "./documents/netflixBuild";
-import { verapax } from "./documents/verapax";
-import { animalia } from "./documents/animalia";
+import { githubApiFetcher } from "./documents/githubApiFetcher";
+import { ecommerce } from "./documents/ecommerce";
 
 export interface PortfolioProject {
   id: string;
@@ -32,6 +32,6 @@ export interface ProjectImage {
   highResUrl?: string;
 }
 
-const projectObjects = [netflixBuild, verapax, animalia];
+const projectObjects = [netflixBuild, githubApiFetcher, ecommerce];
 
 export default projectObjects;
