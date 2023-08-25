@@ -4,7 +4,7 @@
     name="form-name"
     value="contact"
     method="post"
-    action="https://formspree.io/f/mjvppqow"
+    action="https://formspree.io/f/xknlrpqj"
   >
     <h5 class="form__title">Get in touch</h5>
     <div class="form__social_icons">

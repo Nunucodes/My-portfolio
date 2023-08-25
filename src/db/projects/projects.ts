@@ -1,41 +1,37 @@
-import { smtpexpress } from './documents/smtpexpress';
-import { verapax } from './documents/verapax';
-import { animalia } from './documents/animalia';
+import { netflixBuild } from "./documents/netflixBuild";
+import { verapax } from "./documents/verapax";
+import { animalia } from "./documents/animalia";
 
 export interface PortfolioProject {
-  id: string
-  name: string
-  label: string
-  feature: boolean
-  position?: number
-  primaryImage: ProjectImage
-  domainName: string
-  url: string
-  metaDescription?: string
-  description: string
+  id: string;
+  name: string;
+  label: string;
+  feature: boolean;
+  position?: number;
+  primaryImage: ProjectImage;
+  domainName: string;
+  url: string;
+  metaDescription?: string;
+  description: string;
   technologies: {
-    id: number
-    name: string
-    url: string
-  }[]
-  durationOfCompletion: string
-  myRole: string,
-  productsDeveloped: string[]
-  snapshots: ProjectImage[]
-  theme: string
+    id: number;
+    name: string;
+    url: string;
+  }[];
+  durationOfCompletion: string;
+  myRole: string;
+  productsDeveloped: string[];
+  snapshots: ProjectImage[];
+  theme: string;
 }
 
 export interface ProjectImage {
-  id: number
-  name?: string
-  url: string
-  highResUrl?: string
+  id: number;
+  name?: string;
+  url: string;
+  highResUrl?: string;
 }
 
-const projectObjects = [
-  smtpexpress,
-  verapax,
-  animalia,
-]
+const projectObjects = [netflixBuild, verapax, animalia];
 
-export default projectObjects
+export default projectObjects;
